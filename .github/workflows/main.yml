@@ -7,7 +7,7 @@ jobs:
                 name: Convert via Pandoc
                 runs-on: ubuntu-latest
                 steps:
-                        - uses: actions/checkout@v1
+                        - uses: actions/checkout@master
                         - run:  mkdir output
                         - run:  echo "foo" > input.txt
                         - uses: maxheld83/pandoc@v2
